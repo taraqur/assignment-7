@@ -1,0 +1,56 @@
+.navbar-wrapper {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-container {
+  width: 1600px; /* Fixed width */
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #1a2e26;
+  font-family: 'Inter', sans-serif;
+}
+
+.logo-bold {
+  font-weight: 800;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px; /* Space between links */
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6b7280; /* Muted color for inactive links */
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Active Page Style (Dark Green Highlight) */
+.active {
+  background-color: #2d4a3e; /* Dark green from design */
+  color: #ffffff !important;
+}
+
+.nav-item:hover:not(.active) {
+  background-color: #f3f4f6;
+  color: #1a2e26;
+}

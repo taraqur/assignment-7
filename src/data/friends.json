@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "David Kim",
+    "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+    "email": "david.kim@example.com",
+    "days_since_contact": 15,
+    "status": "almost due",
+    "tags": ["Work", "Marketing"],
+    "bio": "Former teammate from the RFL project. Great at strategy and chess.",
+    "goal": 20,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+    "email": "emma.w@example.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["Family", "Close Friend"],
+    "bio": "Childhood friend. We share a common interest in 90s retro cinema.",
+    "goal": 30,
+    "next_due_date": "2026-04-01"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
+    "email": "lisa.n@techworld.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["Work", "Developer"],
+    "bio": "Frontend lead. Expert in CSS Grid and modern web layouts.",
+    "goal": 14,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+    "email": "j.wright@example.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["Hobby", "Travel"],
+    "bio": "Met during the trekking trip in Nepal. Loves mountain photography.",
+    "goal": 14,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 5,
+    "name": "Sarah Ahmed",
+    "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
+    "email": "sarah.codes@example.com",
+    "days_since_contact": 60,
+    "status": "overdue",
+    "tags": ["College", "Coding"],
+    "bio": "Coding bootcamp partner. We built a React dashboard together.",
+    "goal": 30,
+    "next_due_date": "2026-03-15"
+  },
+  {
+    "id": 6,
+    "name": "Michael Chen",
+    "picture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
+    "email": "m.chen@network.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["Work", "Network"],
+    "bio": "Cisco certified expert. Helped me with OSPF and VLSM projects.",
+    "goal": 7,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 7,
+    "name": "Sophia Rossi",
+    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop",
+    "email": "sophia.r@design.it",
+    "days_since_contact": 25,
+    "status": "almost due",
+    "tags": ["Hobby", "Art"],
+    "bio": "Talented digital artist. Shared great tips on vintage photo textures.",
+    "goal": 30,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 8,
+    "name": "Ryan Thompson",
+    "picture": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
+    "email": "ryan.t@example.com",
+    "days_since_contact": 90,
+    "status": "overdue",
+    "tags": ["Gym", "Old Friend"],
+    "bio": "High school basketball captain. Haven't talked in a long time.",
+    "goal": 60,
+    "next_due_date": "2026-03-01"
+  },
+  {
+    "id": 9,
+    "name": "Anika Rahman",
+    "picture": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&h=400&fit=crop",
+    "email": "anika.rahman@example.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["Family", "Cousin"],
+    "bio": "Always keeps the family events lively. Loves trying new recipes.",
+    "goal": 14,
+    "next_due_date": "2026-04-27"
+  },
+  {
+    "id": 10,
+    "name": "Daniel Smith",
+    "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
+    "email": "d.smith@corp.com",
+    "days_since_contact": 10,
+    "status": "on-track",
+    "tags": ["Work", "Sales"],
+    "bio": "Sales mentor. Taught me about territory management and portfolios.",
+    "goal": 30,
+    "next_due_date": "2026-05-06"
+  }
+]

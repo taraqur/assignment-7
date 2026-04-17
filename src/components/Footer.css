@@ -1,0 +1,126 @@
+/* Base Footer Styles */
+.main-footer {
+  background-color: #1a2e26; /* Dark green matching your design */
+  color: white;
+  padding: 80px 20px 40px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-brand {
+  font-size: 80px; /* Large cinematic font for Desktop */
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.footer-desc {
+  font-size: 18px;
+  color: #d1d5db;
+  max-width: 700px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+/* Social Section Styling */
+.social-section h4 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 80px;
+  justify-content: center;
+}
+
+/* White Circle Styling matching your screenshot */
+.icon-circle {
+  background-color: white;
+  width: 60px;  /* Circle diameter */
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.icon-circle:hover {
+  transform: scale(1.1);
+}
+
+/* Local Icon Image Styling */
+.social-img {
+  width: 32px;  /* Icon size inside the circle */
+  height: 32px;
+  object-fit: contain;
+}
+
+/* Bottom Bar - Responsive Row/Column */
+.footer-bottom {
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-links a {
+  color: #9ca3af;
+  text-decoration: none;
+}
+
+/* --- Responsive Breakpoints --- */
+
+/* Tablet & Mobile Tweaks */
+@media (max-width: 768px) {
+  .footer-brand {
+    font-size: 40px;
+  }
+  
+  .footer-desc {
+    font-size: 15px;
+  }
+
+  .icon-circle {
+    width: 50px;
+    height: 50px;
+  }
+
+  .social-img {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+/* Desktop Alignment */
+@media (min-width: 768px) {
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
