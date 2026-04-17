@@ -2,8 +2,6 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Home, Clock, BarChart3 } from 'lucide-react';
 import './Navbar.css';
-
-// Logo pic ekhane import korun
 import logoPic from '../assets/assets/logo.png'; 
 
 const Navbar = () => {
@@ -13,12 +11,12 @@ const Navbar = () => {
     <nav className="navbar-wrapper">
       <div className="nav-container">
         
-        {/* Left side: Logo Link with Image */}
+      
         <Link to="/" className="nav-logo">
           <img src={logoPic} alt="KeenKeeper Logo" className="logo-img" />
         </Link>
 
-        {/* Right side: Navigation Links */}
+        
         <div className="nav-links">
           <Link to="/" className={`nav-item ${location.pathname === '/' ? 'active' : ''}`}>
             <Home size={20} strokeWidth={2} />

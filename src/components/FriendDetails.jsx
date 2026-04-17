@@ -4,7 +4,7 @@ import toast from 'react-hot-toast';
 import friendsData from '../data/friends.json';
 import './FriendDetails.css';
 
-// Assets path according to your structure
+
 import callIcon from '../assets/assets/call.png';
 import textIcon from '../assets/assets/text.png';
 import videoIcon from '../assets/assets/video.png';

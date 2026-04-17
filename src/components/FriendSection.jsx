@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Navigation er jonno eita dorkar
+import { Link } from 'react-router-dom'; 
 import friendsData from '../data/friends.json';
 import { Plus } from 'lucide-react';
 import './FriendSection.css';
@@ -29,7 +29,7 @@ const FriendSection = () => {
         
         <div className="friends-grid">
           {friendsData.map((friend) => (
-            /* Protiti card ekhon clickable Link */
+           
             <Link 
               to={`/friend/${friend.id}`} 
               key={friend.id} 

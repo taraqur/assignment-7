@@ -1,13 +1,11 @@
 import React from 'react';
 import './Timeline.css';
-
-// Assets import (Figma onujayi icons)
 import callIcon from '../assets/assets/call.png';
 import textIcon from '../assets/assets/text.png';
 import videoIcon from '../assets/assets/video.png';
 
 const Timeline = ({ entries }) => {
-  // Activity type onujayi icon select korar function
+  
   const getIcon = (type) => {
     switch (type) {
       case 'Call': return callIcon;
@@ -22,7 +20,7 @@ const Timeline = ({ entries }) => {
       <div className="timeline-container">
         <h1 className="timeline-title">Timeline</h1>
         
-        {/* Filter Label (Design onujayi) */}
+        {/* Filter Label  */}
         <div className="filter-box">
           <p className="filter-label">Filter timeline ▾</p>
         </div>

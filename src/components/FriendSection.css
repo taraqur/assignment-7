@@ -1,4 +1,3 @@
-/* Container and Wrapper */
 .dashboard-wrapper {
   width: 100%;
   background-color: #fcfcfc;
@@ -9,7 +8,7 @@
 
 .main-container {
   width: 100%;
-  max-width: 1600px; /* Desktop max width */
+  max-width: 1600px; 
   padding: 40px 20px;
 }
 
@@ -21,7 +20,7 @@
 }
 
 .hero-header h1 {
-  font-size: clamp(32px, 5vw, 56px); /* Responsive font size */
+  font-size: clamp(32px, 5vw, 56px); 
   color: #1a2e26;
   font-weight: 800;
   margin-bottom: 15px;
@@ -53,10 +52,10 @@
   background-color: #1a2e26;
 }
 
-/* Stats Grid - Responsive Column Logic */
+
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(1, 1fr); /* Mobile default */
+  grid-template-columns: repeat(1, 1fr); 
   gap: 20px;
   margin-bottom: 80px;
 }
@@ -91,11 +90,11 @@
 
 .friends-grid {
   display: grid;
-  grid-template-columns: repeat(1, 1fr); /* Mobile default */
+  grid-template-columns: repeat(1, 1fr); 
   gap: 24px;
 }
 
-/* Individual Friend Card Link */
+
 .friend-card-link {
   text-decoration: none;
   color: inherit;
@@ -177,7 +176,7 @@
 
 /* --- RESPONSIVE BREAKPOINTS --- */
 
-/* Tablet (Screens > 640px) */
+
 @media (min-width: 640px) {
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -187,7 +186,7 @@
   }
 }
 
-/* Large Tablet/Small Desktop (Screens > 1024px) */
+
 @media (min-width: 1024px) {
   .friends-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -197,7 +196,7 @@
   }
 }
 
-/* Full Desktop (Screens > 1280px) */
+
 @media (min-width: 1280px) {
   .friends-grid {
     grid-template-columns: repeat(4, 1fr);

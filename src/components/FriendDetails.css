@@ -1,22 +1,21 @@
-/* Container styling to provide contrast for white cards */
 .details-wrapper {
-  background-color: #f8fafc; /* Figma design-er moto off-white background */
+  background-color: #f8fafc; 
   min-height: 100vh;
   padding: 60px 20px;
   display: flex;
   justify-content: center;
-  color: #1e293b; /* Visibility-r jonno deep text color */
+  color: #1e293b; 
 }
 
 .details-grid {
   display: grid;
-  grid-template-columns: 350px 1fr; /* Two-column layout matching Figma */
+  grid-template-columns: 350px 1fr; 
   gap: 32px;
   width: 100%;
   max-width: 1200px;
 }
 
-/* --- Left Column: Profile Card --- */
+
 .left-panel {
   display: flex;
   flex-direction: column;
@@ -79,7 +78,7 @@
   margin-bottom: 30px;
 }
 
-/* Vertical buttons on the left */
+
 .side-actions {
   display: flex;
   flex-direction: column;
@@ -105,7 +104,7 @@
 .action-item:hover { background: #f8fafc; }
 .delete-text { color: #ef4444; }
 
-/* --- Right Column: Stats & Actions --- */
+
 .right-panel {
   display: flex;
   flex-direction: column;
@@ -114,7 +113,7 @@
 
 .stats-row {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 cards side-by-side */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 20px;
 }
 
@@ -127,7 +126,7 @@
 }
 
 .stat-value {
-  color: #2d4a3e; /* Figma-r moto deep green text */
+  color: #2d4a3e; 
   font-size: 32px;
   font-weight: 800;
   margin-bottom: 5px;
@@ -170,7 +169,7 @@
 
 .checkin-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Call, Text, Video grid */
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin-top: 24px;
 }

@@ -1,4 +1,3 @@
-/* Full wrapper to give contrast against white cards */
 .timeline-wrapper {
   background-color: #fcfcfc;
   min-height: 100vh;
@@ -9,7 +8,7 @@
 
 .timeline-container {
   width: 100%;
-  max-width: 800px; /* Centered narrow layout like Figma */
+  max-width: 800px; 
 }
 
 .timeline-title {
@@ -74,14 +73,14 @@
 
 /* Text visibility fixes */
 .entry-title {
-  color: #334155; /* Visibility baranor jonno dark color */
+  color: #334155; 
   font-size: 17px;
   font-weight: 600;
   margin: 0;
 }
 
 .entry-date {
-  color: #94a3b8; /* Date-er jonno light color */
+  color: #94a3b8; 
   font-size: 14px;
   margin: 4px 0 0 0;
 }

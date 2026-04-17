@@ -3,7 +3,7 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Legend } from 'recharts';
 import './Stats.css';
 
 const Stats = ({ entries }) => {
-  // Timeline entries theke data count kora
+ 
   const dataMap = entries.reduce((acc, curr) => {
     acc[curr.type] = (acc[curr.type] || 0) + 1;
     return acc;
@@ -15,7 +15,7 @@ const Stats = ({ entries }) => {
     { name: 'Video', value: dataMap['Video'] || 0 },
   ];
 
-  // Figma design color palette
+
   const COLORS = ['#8b5cf6', '#1a2e26', '#34d399'];
 
   return (

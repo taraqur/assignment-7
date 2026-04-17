@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 
-// Folder structure onujayi assets import kora hocche
+
 import instagramIcon from '../assets/assets/instagram.png';
 import facebookIcon from '../assets/assets/facebook.png';
 import twitterIcon from '../assets/assets/twitter.png';

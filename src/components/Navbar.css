@@ -38,7 +38,7 @@
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
-  color: #6b7280; /* Muted color for inactive links */
+  color: #6b7280; 
   padding: 10px 20px;
   border-radius: 8px;
   transition: all 0.3s ease;
@@ -46,7 +46,7 @@
 
 /* Active Page Style (Dark Green Highlight) */
 .active {
-  background-color: #2d4a3e; /* Dark green from design */
+  background-color: #2d4a3e; 
   color: #ffffff !important;
 }
 

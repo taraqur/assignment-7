@@ -1,6 +1,6 @@
 /* Base Footer Styles */
 .main-footer {
-  background-color: #1a2e26; /* Dark green matching your design */
+  background-color: #1a2e26; 
   color: white;
   padding: 80px 20px 40px 20px;
   width: 100%;
@@ -18,7 +18,7 @@
 }
 
 .footer-brand {
-  font-size: 80px; /* Large cinematic font for Desktop */
+  font-size: 80px; 
   font-weight: 800;
   margin-bottom: 20px;
   color: white;
@@ -32,7 +32,7 @@
   line-height: 1.6;
 }
 
-/* Social Section Styling */
+
 .social-section h4 {
   font-size: 24px;
   font-weight: 500;
@@ -47,10 +47,10 @@
   justify-content: center;
 }
 
-/* White Circle Styling matching your screenshot */
+
 .icon-circle {
   background-color: white;
-  width: 60px;  /* Circle diameter */
+  width: 60px;  
   height: 60px;
   border-radius: 50%;
   display: flex;
@@ -64,14 +64,14 @@
   transform: scale(1.1);
 }
 
-/* Local Icon Image Styling */
+
 .social-img {
-  width: 60px;  /* Icon size inside the circle */
+  width: 60px;  
   height: 60px;
   object-fit: contain;
 }
 
-/* Bottom Bar - Responsive Row/Column */
+
 .footer-bottom {
   width: 100%;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -94,7 +94,7 @@
   text-decoration: none;
 }
 
-/* --- Responsive Breakpoints --- */
+
 
 /* Tablet & Mobile Tweaks */
 @media (max-width: 768px) {
@@ -117,7 +117,7 @@
   }
 }
 
-/* Desktop Alignment */
+
 @media (min-width: 768px) {
   .footer-bottom {
     flex-direction: row;
