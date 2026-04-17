@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import FriendSection from './components/FriendSection';
 import FriendDetails from './components/FriendDetails';
 import Timeline from './components/Timeline';
+import Stats from './components/Stats';
 import Footer from './components/Footer';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/" element={<FriendSection />} />
           <Route path="/friend/:id" element={<FriendDetails addEntry={addTimelineEntry} />} />
           <Route path="/timeline" element={<Timeline entries={timelineData} />} />
+          <Route path="/stats" element={<Stats entries={timelineData} />} />
         </Routes>
       </main>
       <Footer />
