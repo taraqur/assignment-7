@@ -3,28 +3,32 @@ import { Link, useLocation } from 'react-router-dom';
 import { Home, Clock, BarChart3 } from 'lucide-react';
 import './Navbar.css';
 
+// Logo pic ekhane import korun
+import logoPic from '../assets/assets/logo.png'; 
+
 const Navbar = () => {
   const location = useLocation();
 
   return (
     <nav className="navbar-wrapper">
       <div className="nav-container">
-        {/* Left side: Logo */}
-        <Link to="/" className="logo" style={{ textDecoration: 'none', color: 'inherit' }}>
-          <span className="logo-bold">Keen</span>Keeper
+        
+        {/* Left side: Logo Link with Image */}
+        <Link to="/" className="nav-logo">
+          <img src={logoPic} alt="KeenKeeper Logo" className="logo-img" />
         </Link>
 
         {/* Right side: Navigation Links */}
         <div className="nav-links">
           <Link to="/" className={`nav-item ${location.pathname === '/' ? 'active' : ''}`}>
-            <Home size={20} strokeWidth={location.pathname === '/' ? 2.5 : 2} />
+            <Home size={20} strokeWidth={2} />
             <span>Home</span>
           </Link>
           <Link to="/timeline" className={`nav-item ${location.pathname === '/timeline' ? 'active' : ''}`}>
-            <Clock size={20} strokeWidth={location.pathname === '/timeline' ? 2.5 : 2} />
+            <Clock size={20} strokeWidth={2} />
             <span>Timeline</span>
           </Link>
-          <Link to="/stats" className="nav-item">
+          <Link to="/stats" className={`nav-item ${location.pathname === '/stats' ? 'active' : ''}`}>
             <BarChart3 size={20} strokeWidth={2} />
             <span>Stats</span>
           </Link>
